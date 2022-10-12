@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@font-face {
+  font-family: 'icomoon';
+  src: url("../../fonts/icomoon.eot?sq4odv");
+  src: url("../../fonts/icomoon.eot?sq4odv#iefix") format("embedded-opentype"), url("../../fonts/icomoon.ttf?sq4odv") format("truetype"), url("../../fonts/icomoon.woff?sq4odv") format("woff"), url("../../fonts/icomoon.svg?sq4odv#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-icons8-close:before {
+  content: "\e900"; }
+
+body {
+  margin: 0;
+  color: #000;
+  font-family: 'Roboto', sans-serif; }
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; }
+
+header {
+  text-align: center; }
+
+.content__wrapper {
+  height: calc(100vh - 200px);
+  position: relative; }
+
+.content__image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+
+.content__overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.content__headline {
+  color: #fff;
+  font-size: 50px; }
+
+.content__button {
+  border: none;
+  padding: 10px;
+  width: 100px;
+  font-size: 14px;
+  background: #0096FF;
+  color: #fff;
+  outline: none;
+  cursor: pointer; }
+  .content__button:hover {
+    background: #0047AB; }
+
+.content__alert-overlay {
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  align-items: center;
+  justify-content: center; }
+
+.content__alert-box {
+  display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+  background: #fcfcfc;
+  height: 250px;
+  font-size: 20px;
+  position: relative; }
+
+.content__alert-close {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  cursor: pointer; }
+
+.footer__copy-right {
+  color: #000;
+  text-decoration: none; }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Travelopia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/css/style.css'>
+    <script src='scripts/main.js'></script>
+</head>
+<body background-image="img/banner-big.jpg" background-repeat="no-repeat" background-size="cover">
+    <header>
+        <a href="https://www.travelopia.com/" target="_blank">
+            <img src="img/logo.jpg" alt="Travelopia">
+        </a>
+    </header>
+    <div class="content__wrapper">
+        <picture>
+            <source media="(min-width: 900px)" srcset="img/banner-big.jpg">
+            <source media="(min-width: 480px)" srcset="img/banner-medium.jpg">
+            <img class="content__image" src="img/banner-small.jpg" alt="IfItDoesntMatchAnyMedia">
+        </picture>
+        <div class="content__overlay">
+            <h1 class="content__headline">Travelopia</h1>
+            <button class="content__button" data-click>Click here</button>
+            <div class="content__alert-overlay" data-alert>
+                <div class="content__alert-box">
+                    <span data-alert-close class="content__alert-close icon-icons8-close"></span>
+                    <h3>
+                        Hello World
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright © <a class="footer__copy-right" href="https://www.travelopia.com/" target="_blank">Travelopia</a> 2022</p>
+    </footer>
+</body>
+</html>
